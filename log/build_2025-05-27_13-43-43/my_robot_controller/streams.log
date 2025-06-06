@@ -1,0 +1,37 @@
+[0.968s] Invoking command in '/home/ros-student/ros2_ws/src/my_robot_controller': PYTHONPATH=/home/ros-student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ros-student/ros2_ws/build/my_robot_controller/build install --record /home/ros-student/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data
+[1.221s] running egg_info
+[1.221s] creating ../../build/my_robot_controller/my_robot_controller.egg-info
+[1.222s] writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO
+[1.222s] writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt
+[1.222s] writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt
+[1.222s] writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt
+[1.222s] writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt
+[1.223s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.250s] reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.260s] writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'
+[1.261s] running build
+[1.261s] running build_py
+[1.262s] creating /home/ros-student/ros2_ws/build/my_robot_controller/build
+[1.263s] creating /home/ros-student/ros2_ws/build/my_robot_controller/build/lib
+[1.263s] creating /home/ros-student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.265s] copying my_robot_controller/gui_control.py -> /home/ros-student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.283s] copying my_robot_controller/__init__.py -> /home/ros-student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller
+[1.288s] running install
+[1.288s] running install_lib
+[1.289s] creating /home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.289s] copying /home/ros-student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/__init__.py -> /home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.289s] copying /home/ros-student/ros2_ws/build/my_robot_controller/build/lib/my_robot_controller/gui_control.py -> /home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller
+[1.290s] byte-compiling /home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/__init__.py to __init__.cpython-310.pyc
+[1.291s] byte-compiling /home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller/gui_control.py to gui_control.cpython-310.pyc
+[1.291s] running install_data
+[1.291s] creating /home/ros-student/ros2_ws/install/my_robot_controller/share/ament_index
+[1.292s] creating /home/ros-student/ros2_ws/install/my_robot_controller/share/ament_index/resource_index
+[1.292s] creating /home/ros-student/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.294s] copying resource/my_robot_controller -> /home/ros-student/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages
+[1.298s] copying package.xml -> /home/ros-student/ros2_ws/install/my_robot_controller/share/my_robot_controller
+[1.300s] running install_egg_info
+[1.303s] Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info
+[1.305s] running install_scripts
+[1.332s] Installing gui_control script to /home/ros-student/ros2_ws/install/my_robot_controller/lib/my_robot_controller
+[1.335s] writing list of installed files to '/home/ros-student/ros2_ws/build/my_robot_controller/install.log'
+[1.363s] Invoked command in '/home/ros-student/ros2_ws/src/my_robot_controller' returned '0': PYTHONPATH=/home/ros-student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_robot_controller build --build-base /home/ros-student/ros2_ws/build/my_robot_controller/build install --record /home/ros-student/ros2_ws/build/my_robot_controller/install.log --single-version-externally-managed install_data

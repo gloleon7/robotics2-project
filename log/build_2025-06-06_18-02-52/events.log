@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.001707] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.002472] (robot_interface) JobQueued: {'identifier': 'robot_interface', 'dependencies': OrderedDict()}
+[0.002728] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.023864] (robot_interface) JobStarted: {'identifier': 'robot_interface'}
+[0.098665] (-) TimerEvent: {}
+[0.199456] (-) TimerEvent: {}
+[0.300328] (-) TimerEvent: {}
+[0.402535] (-) TimerEvent: {}
+[0.503384] (-) TimerEvent: {}
+[0.604082] (-) TimerEvent: {}
+[0.704994] (-) TimerEvent: {}
+[0.805708] (-) TimerEvent: {}
+[0.906433] (-) TimerEvent: {}
+[1.007196] (-) TimerEvent: {}
+[1.108110] (-) TimerEvent: {}
+[1.209143] (-) TimerEvent: {}
+[1.309912] (-) TimerEvent: {}
+[1.410614] (-) TimerEvent: {}
+[1.512138] (-) TimerEvent: {}
+[1.613036] (-) TimerEvent: {}
+[1.716022] (-) TimerEvent: {}
+[1.816833] (-) TimerEvent: {}
+[1.917677] (-) TimerEvent: {}
+[2.018598] (-) TimerEvent: {}
+[2.119434] (-) TimerEvent: {}
+[2.220266] (-) TimerEvent: {}
+[2.320907] (-) TimerEvent: {}
+[2.421672] (-) TimerEvent: {}
+[2.522296] (-) TimerEvent: {}
+[2.623003] (-) TimerEvent: {}
+[2.725901] (-) TimerEvent: {}
+[2.827070] (-) TimerEvent: {}
+[2.927855] (-) TimerEvent: {}
+[3.028639] (-) TimerEvent: {}
+[3.059776] (robot_interface) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_interface', 'build', '--build-base', '/home/ros-student/ros2_ws/build/robot_interface/build', 'install', '--record', '/home/ros-student/ros2_ws/build/robot_interface/install.log', '--single-version-externally-managed'], 'cwd': '/home/ros-student/ros2_ws/src/robot_interface', 'env': {'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/helpers/browser.sh', 'HOME': '/home/ros-student', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-591aa174-b7dc-40cb-be69-4204bda622b0.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros-student/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-07d8ea51-5041-4b06-823f-de20b667acdd.sock', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros-student/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ros-student/.gnupg/S.gpg-agent"]', 'DISPLAY': 'host.docker.internal:0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros-student/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1d08ff1442bc6360.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-061f1993df.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ros-student/ros2_ws/build/robot_interface', 'LC_ALL': 'C.UTF-8', 'COLCON': '1', 'PYTHONPATH': '/home/ros-student/ros2_ws/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-student/ros2_ws/install/robot_interface/lib/python3.10/site-packages:'}, 'shell': False}
+[3.107358] (my_robot_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_robot_controller', 'build', '--build-base', '/home/ros-student/ros2_ws/build/my_robot_controller/build', 'install', '--record', '/home/ros-student/ros2_ws/build/my_robot_controller/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ros-student/ros2_ws/src/my_robot_controller', 'env': {'HOSTNAME': 'docker-desktop', 'GIT_ASKPASS': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'BROWSER': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/helpers/browser.sh', 'HOME': '/home/ros-student', 'TERM_PROGRAM_VERSION': '1.100.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-591aa174-b7dc-40cb-be69-4204bda622b0.sock', 'VSCODE_GIT_ASKPASS_MAIN': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/ros-student/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/libs/debugpy', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-07d8ea51-5041-4b06-823f-de20b667acdd.sock', '_': '/usr/bin/colcon', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '1', 'PATH': '/vscode/vscode-server/bin/linux-x64/258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros-student/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/bundled/scripts/noConfigScripts', 'REMOTE_CONTAINERS_SOCKETS': '["/home/ros-student/.gnupg/S.gpg-agent"]', 'DISPLAY': 'host.docker.internal:0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/ros-student/.vscode-server/extensions/ms-python.debugpy-2025.8.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-1d08ff1442bc6360.txt', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-061f1993df.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '42', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/ros-student/ros2_ws/build/my_robot_controller', 'LC_ALL': 'C.UTF-8', 'COLCON': '1', 'PYTHONPATH': '/home/ros-student/ros2_ws/build/my_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:'}, 'shell': False}
+[3.128901] (-) TimerEvent: {}
+[3.229622] (-) TimerEvent: {}
+[3.330580] (-) TimerEvent: {}
+[3.431413] (-) TimerEvent: {}
+[3.532162] (-) TimerEvent: {}
+[3.633905] (-) TimerEvent: {}
+[3.734642] (-) TimerEvent: {}
+[3.835357] (-) TimerEvent: {}
+[3.923299] (robot_interface) StdoutLine: {'line': b'running egg_info\n'}
+[3.926817] (robot_interface) StdoutLine: {'line': b'writing ../../build/robot_interface/robot_interface.egg-info/PKG-INFO\n'}
+[3.928098] (robot_interface) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_interface/robot_interface.egg-info/dependency_links.txt\n'}
+[3.928793] (robot_interface) StdoutLine: {'line': b'writing entry points to ../../build/robot_interface/robot_interface.egg-info/entry_points.txt\n'}
+[3.929400] (robot_interface) StdoutLine: {'line': b'writing requirements to ../../build/robot_interface/robot_interface.egg-info/requires.txt\n'}
+[3.930477] (robot_interface) StdoutLine: {'line': b'writing top-level names to ../../build/robot_interface/robot_interface.egg-info/top_level.txt\n'}
+[3.935690] (-) TimerEvent: {}
+[4.017620] (robot_interface) StdoutLine: {'line': b"reading manifest file '../../build/robot_interface/robot_interface.egg-info/SOURCES.txt'\n"}
+[4.024429] (my_robot_controller) StdoutLine: {'line': b'running egg_info\n'}
+[4.027676] (my_robot_controller) StdoutLine: {'line': b'writing ../../build/my_robot_controller/my_robot_controller.egg-info/PKG-INFO\n'}
+[4.028448] (my_robot_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/my_robot_controller/my_robot_controller.egg-info/dependency_links.txt\n'}
+[4.028972] (my_robot_controller) StdoutLine: {'line': b'writing entry points to ../../build/my_robot_controller/my_robot_controller.egg-info/entry_points.txt\n'}
+[4.029594] (my_robot_controller) StdoutLine: {'line': b'writing requirements to ../../build/my_robot_controller/my_robot_controller.egg-info/requires.txt\n'}
+[4.030028] (my_robot_controller) StdoutLine: {'line': b'writing top-level names to ../../build/my_robot_controller/my_robot_controller.egg-info/top_level.txt\n'}
+[4.036049] (-) TimerEvent: {}
+[4.084223] (robot_interface) StdoutLine: {'line': b"writing manifest file '../../build/robot_interface/robot_interface.egg-info/SOURCES.txt'\n"}
+[4.087244] (robot_interface) StdoutLine: {'line': b'running build\n'}
+[4.088058] (robot_interface) StdoutLine: {'line': b'running build_py\n'}
+[4.123279] (robot_interface) StdoutLine: {'line': b'running install\n'}
+[4.125346] (robot_interface) StdoutLine: {'line': b'running install_lib\n'}
+[4.128116] (my_robot_controller) StdoutLine: {'line': b"reading manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[4.133658] (robot_interface) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.136356] (-) TimerEvent: {}
+[4.145344] (robot_interface) StdoutLine: {'line': b"removing '/home/ros-student/ros2_ws/install/robot_interface/lib/python3.10/site-packages/robot_interface-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.148777] (robot_interface) StdoutLine: {'line': b'Copying ../../build/robot_interface/robot_interface.egg-info to /home/ros-student/ros2_ws/install/robot_interface/lib/python3.10/site-packages/robot_interface-0.0.0-py3.10.egg-info\n'}
+[4.155619] (robot_interface) StdoutLine: {'line': b'running install_scripts\n'}
+[4.201982] (my_robot_controller) StdoutLine: {'line': b"writing manifest file '../../build/my_robot_controller/my_robot_controller.egg-info/SOURCES.txt'\n"}
+[4.202612] (my_robot_controller) StdoutLine: {'line': b'running build\n'}
+[4.202883] (my_robot_controller) StdoutLine: {'line': b'running build_py\n'}
+[4.235814] (robot_interface) StdoutLine: {'line': b'Installing robot_control script to /home/ros-student/ros2_ws/install/robot_interface/lib/robot_interface\n'}
+[4.236472] (-) TimerEvent: {}
+[4.237866] (my_robot_controller) StdoutLine: {'line': b'running install\n'}
+[4.238539] (my_robot_controller) StdoutLine: {'line': b'running install_lib\n'}
+[4.243504] (robot_interface) StdoutLine: {'line': b"writing list of installed files to '/home/ros-student/ros2_ws/build/robot_interface/install.log'\n"}
+[4.244777] (my_robot_controller) StdoutLine: {'line': b'running install_data\n'}
+[4.264808] (my_robot_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.275037] (my_robot_controller) StdoutLine: {'line': b"removing '/home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.278551] (my_robot_controller) StdoutLine: {'line': b'Copying ../../build/my_robot_controller/my_robot_controller.egg-info to /home/ros-student/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages/my_robot_controller-0.0.0-py3.10.egg-info\n'}
+[4.282149] (my_robot_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[4.324007] (robot_interface) CommandEnded: {'returncode': 0}
+[4.336694] (-) TimerEvent: {}
+[4.358785] (robot_interface) JobEnded: {'identifier': 'robot_interface', 'rc': 0}
+[4.363404] (my_robot_controller) StdoutLine: {'line': b'Installing gui_control script to /home/ros-student/ros2_ws/install/my_robot_controller/lib/my_robot_controller\n'}
+[4.371358] (my_robot_controller) StdoutLine: {'line': b"writing list of installed files to '/home/ros-student/ros2_ws/build/my_robot_controller/install.log'\n"}
+[4.436971] (-) TimerEvent: {}
+[4.451265] (my_robot_controller) CommandEnded: {'returncode': 0}
+[4.473328] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[4.477650] (-) EventReactorShutdown: {}

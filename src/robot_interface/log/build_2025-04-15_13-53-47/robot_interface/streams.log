@@ -1,0 +1,31 @@
+[1.495s] Invoking command in '/home/ros-student/ros2_ws/src/robot_interface': PYTHONPATH=/home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-student/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed
+[2.059s] running egg_info
+[2.062s] creating build/robot_interface/robot_interface.egg-info
+[2.065s] writing build/robot_interface/robot_interface.egg-info/PKG-INFO
+[2.074s] writing dependency_links to build/robot_interface/robot_interface.egg-info/dependency_links.txt
+[2.080s] writing entry points to build/robot_interface/robot_interface.egg-info/entry_points.txt
+[2.084s] writing requirements to build/robot_interface/robot_interface.egg-info/requires.txt
+[2.087s] writing top-level names to build/robot_interface/robot_interface.egg-info/top_level.txt
+[2.092s] writing manifest file 'build/robot_interface/robot_interface.egg-info/SOURCES.txt'
+[2.116s] reading manifest file 'build/robot_interface/robot_interface.egg-info/SOURCES.txt'
+[2.161s] writing manifest file 'build/robot_interface/robot_interface.egg-info/SOURCES.txt'
+[2.163s] running build
+[2.164s] running build_py
+[2.168s] creating /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/build
+[2.171s] creating /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/build/lib
+[2.174s] creating /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/build/lib/robot_interface
+[2.182s] copying robot_interface/robot_control.py -> /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/build/lib/robot_interface
+[2.213s] copying robot_interface/__init__.py -> /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/build/lib/robot_interface
+[2.226s] running install
+[2.227s] running install_lib
+[2.242s] creating /home/ros-student/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface
+[2.252s] copying /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/build/lib/robot_interface/robot_control.py -> /home/ros-student/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface
+[2.275s] copying /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/build/lib/robot_interface/__init__.py -> /home/ros-student/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface
+[2.296s] byte-compiling /home/ros-student/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface/robot_control.py to robot_control.cpython-310.pyc
+[2.330s] byte-compiling /home/ros-student/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface/__init__.py to __init__.cpython-310.pyc
+[2.352s] running install_egg_info
+[2.364s] Copying build/robot_interface/robot_interface.egg-info to /home/ros-student/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages/robot_interface-0.0.0-py3.10.egg-info
+[2.539s] running install_scripts
+[2.593s] Installing robot_control script to /home/ros-student/ros2_ws/src/robot_interface/install/robot_interface/lib/robot_interface
+[2.602s] writing list of installed files to '/home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/install.log'
+[2.638s] Invoked command in '/home/ros-student/ros2_ws/src/robot_interface' returned '0': PYTHONPATH=/home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros-student/ros2_ws/src/robot_interface/install/robot_interface/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/robot_interface build --build-base /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/build install --record /home/ros-student/ros2_ws/src/robot_interface/build/robot_interface/install.log --single-version-externally-managed
